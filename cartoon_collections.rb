@@ -25,17 +25,12 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   x = [ ]
-   
    x = (cheese & cheese_types)
-   
   if x.empty? == true
     return nil
   else  
     return x.join
-  
-   
-   end
-
+  end
 end
 
 
