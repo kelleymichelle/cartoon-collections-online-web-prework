@@ -27,7 +27,6 @@ def find_the_cheese(cheese)
   x = [ ]
    
    x = (cheese & cheese_types)
-     puts x.join
    
   if cheese.include?(x)
     return x.join
